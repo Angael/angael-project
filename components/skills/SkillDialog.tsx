@@ -41,7 +41,13 @@ const SkillDialog = ({ open, skill, onClose }: Props) => {
                 </Stack>
             </DialogTitle>
             <DialogContent>
-                <DialogContentText sx={{ pb: 2 }}>{longDesc}</DialogContentText>
+                <DialogContentText sx={{ pb: 2 }}>
+                    {longDesc?.map(paragraph => (
+                        <Typography key={paragraph} gutterBottom>
+                            {paragraph}
+                        </Typography>
+                    ))}
+                </DialogContentText>
                 <Typography variant='body2' gutterBottom>
                     Proficiency: {proficiencyText[proficiency!]}
                 </Typography>
