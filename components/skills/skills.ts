@@ -429,6 +429,16 @@ export const skills: Skill[] = [
         tags: [Tag.services],
     },
     {
+        icon: '/img/nginx-icon.svg',
+        name: 'Nginx',
+        longDesc: [
+            `I started learning nginx, because it is just so effective and performant!`,
+            `I wouldn't call myself a pro, but I can google the basics, splice some rules from the internet and from my previous experiments into working solution`,
+        ],
+        proficiency: P.intermediate,
+        tags: [Tag.frameworks, Tag.backend],
+    },
+    {
         icon: '/img/angular.png',
         name: 'Angular',
         longDesc: [

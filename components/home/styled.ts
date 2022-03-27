@@ -6,6 +6,9 @@ export const TitleContainer = styled('header')({
     minHeight: '100vh',
     flexDirection: 'column',
     alignItems: 'center',
+    backgroundImage: 'url(/3.svg)',
+    backgroundPosition: 'center left',
+    backgroundSize: 'cover',
 });
 
 export const LinksGrid = styled('nav')(({ theme }) => ({
