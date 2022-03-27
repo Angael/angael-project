@@ -33,3 +33,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/angael-project.iml
+/.idea/modules.xml
+/.idea/prettier.xml
+/.idea/vcs.xml

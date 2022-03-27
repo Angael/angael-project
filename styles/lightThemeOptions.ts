@@ -6,8 +6,13 @@ const lightThemeOptions: ThemeOptions = {
     },
     components: {
         MuiButton: {
+            styleOverrides: {
+                root: {
+                    textTransform: 'unset',
+                },
+            },
             defaultProps: {
-                disableRipple: true,
+                disableRipple: false,
             },
         },
     },

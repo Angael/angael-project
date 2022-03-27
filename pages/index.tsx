@@ -1,20 +1,18 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import TitleCard from "../components/home/TitleCard";
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import IndexTitleCard from '../components/home/IndexTitleCard';
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>Krzysztof Widacki</title>
-        <meta name="description" content="Portoflio page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <TitleCard/>
+    return (
+        <div>
+            <Head>
+                <title>Krzysztof Widacki</title>
+                <meta name='description' content='Portoflio page' />
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
+            <IndexTitleCard />
+        </div>
+    );
+};
 
-
-    </div>
-  )
-}
-
-export default Home
+export default Home;
