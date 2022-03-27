@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
 
 import createEmotionCache from '../utility/createEmotionCache';
+import '../components/analytics/analytics';
 
 export default class MyDocument extends Document {
     render() {
@@ -17,7 +18,7 @@ export default class MyDocument extends Document {
                         rel='preconnect'
                         href='https://fonts.gstatic.com'
                         // @ts-ignore
-                        crossOrigin
+                        crossOrigin='true'
                     />
                     <link
                         href='https://fonts.googleapis.com/css2?family=Fira+Code&family=Public+Sans:wght@100;200;300;400;500;600;700;800&display=swap'

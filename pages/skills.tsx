@@ -7,6 +7,8 @@ import SkillCard from '../components/skills/SkillCard';
 import { Proficiency, Skill, skills, Tag } from '../components/skills/skills';
 import { useState } from 'react';
 import SkillDialog from '../components/skills/SkillDialog';
+import { getAnalytics, logEvent } from 'firebase/analytics';
+import { app } from '../components/analytics/analytics';
 
 const Grid = styled('div')(({ theme }) => ({
     display: 'grid',
@@ -31,6 +33,12 @@ const Skills: NextPage = () => {
     const onClick = (skill: Skill) => {
         setSelectedSkill(skill);
         setOpen(true);
+
+        const analytics = getAnalytics(app);
+        logEvent(analytics, 'select_content', {
+            content_type: 'skill',
+            item_id: skill.name,
+        });
     };
 
     return (

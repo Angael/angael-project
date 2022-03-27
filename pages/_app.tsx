@@ -15,6 +15,7 @@ import '@fontsource/roboto/700.css';
 
 import createEmotionCache from '../utility/createEmotionCache';
 import lightThemeOptions from '../styles/lightThemeOptions';
+import AnalyticsComponent from '../components/analytics/AnalyticsComponent';
 interface MyAppProps extends AppProps {
     emotionCache?: EmotionCache;
 }
@@ -36,6 +37,8 @@ const MyApp: React.FunctionComponent<MyAppProps> = props => {
                 <CssBaseline />
                 <GlobalStyles styles={{ body: { overflowY: 'scroll' } }} />
                 <Component {...pageProps} />
+
+                <AnalyticsComponent />
             </ThemeProvider>
         </CacheProvider>
     );
