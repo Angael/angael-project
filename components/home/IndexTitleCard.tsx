@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Tooltip, Typography } from '@mui/material';
 import { LinksGrid, TitleContainer } from './styled';
 import { BtnLink } from '../shared/BtnLink';
 
@@ -24,13 +24,18 @@ const IndexTitleCard = () => {
             <LinksGrid sx={{ mt: 5 }}>
                 <BtnLink href='/about'>About me</BtnLink>
                 <BtnLink href='/skills'>My skills</BtnLink>
-                <BtnLink href='/experience' buttonProps={{ disabled: true }}>
-                    My experience
-                </BtnLink>
+                <Tooltip title='Currenlty only on my linkedin'>
+                    <div>
+                        <BtnLink
+                            href='/experience'
+                            buttonProps={{ disabled: true }}
+                        >
+                            My experience
+                        </BtnLink>
+                    </div>
+                </Tooltip>
                 <BtnLink href='/projects'>My projects</BtnLink>
-                <BtnLink href='/contact' buttonProps={{ disabled: true }}>
-                    Contact
-                </BtnLink>
+                <BtnLink href='/contact'>Contact</BtnLink>
             </LinksGrid>
         </TitleContainer>
     );

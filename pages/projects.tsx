@@ -2,7 +2,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import TitleWithNav from '../components/shared/TitleWithNav';
-import { Container, Typography, Link as MuiLink, Stack } from '@mui/material';
+import { Container, Stack } from '@mui/material';
 import ProjectCard from '../components/projects/ProjectCard';
 import { projects } from '../components/projects/projects';
 

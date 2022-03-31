@@ -34,19 +34,20 @@ const Skills: NextPage = () => {
         setSelectedSkill(skill);
         setOpen(true);
 
-        const analytics = getAnalytics(app);
+        if (process.env.NODE_ENV === 'production') {
+            const analytics = getAnalytics(app);
+            // Test what sticks, im new to GA4
+            logEvent(analytics, 'select_content', {
+                content_type: 'skill',
+                item_id: skill.name,
+            });
 
-        // Test what sticks, im new to GA4
-        logEvent(analytics, 'select_content', {
-            content_type: 'skill',
-            item_id: skill.name,
-        });
-
-        logEvent(analytics, 'select_item', {
-            item_list_id: 'skills',
-            item_list_name: 'skills',
-            items: [{ item_name: skill.name, item_id: skill.name }],
-        });
+            logEvent(analytics, 'select_item', {
+                item_list_id: 'skills',
+                item_list_name: 'skills',
+                items: [{ item_name: skill.name, item_id: skill.name }],
+            });
+        }
     };
 
     return (

@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import IndexTitleCard from '../components/home/IndexTitleCard';
 import TitleWithNav from '../components/shared/TitleWithNav';
-import { Container, Typography, Link as MuiLink } from '@mui/material';
+import { Container, Link as MuiLink, Typography } from '@mui/material';
 
 const yearsDiff = (d1: Date, d2: Date) =>
     Math.floor(
