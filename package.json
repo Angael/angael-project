@@ -1,35 +1,35 @@
 {
-  "name": "angael-project",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "build:static": "next build && next export",
-    "start:static": "npx http-server ./out",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@emotion/cache": "^11.7.1",
-    "@emotion/react": "^11.8.2",
-    "@emotion/server": "^11.4.0",
-    "@emotion/styled": "^11.8.1",
-    "@fontsource/roboto": "^4.5.5",
-    "@mui/icons-material": "^5.5.1",
-    "@mui/material": "^5.5.2",
-    "firebase": "^9.6.10",
-    "next": "12.1.1",
-    "prettier": "^2.6.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.23",
-    "@types/react": "17.0.43",
-    "@types/react-dom": "17.0.14",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.1",
-    "typescript": "4.6.3"
-  }
+    "name": "angael-project",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "build:static": "next export",
+        "start:static": "npx http-server ./out",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/cache": "^11.7.1",
+        "@emotion/react": "^11.8.2",
+        "@emotion/server": "^11.4.0",
+        "@emotion/styled": "^11.8.1",
+        "@fontsource/roboto": "^4.5.5",
+        "@mui/icons-material": "^5.5.1",
+        "@mui/material": "^5.5.2",
+        "firebase": "^9.6.10",
+        "next": "12.1.1",
+        "prettier": "^2.6.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.23",
+        "@types/react": "17.0.43",
+        "@types/react-dom": "17.0.14",
+        "eslint": "8.12.0",
+        "eslint-config-next": "12.1.1",
+        "typescript": "4.6.3"
+    }
 }

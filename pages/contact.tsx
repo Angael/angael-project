@@ -33,7 +33,7 @@ const About: NextPage = () => {
                     mb={4}
                     gap={1}
                 >
-                    <SmallImg src='/img/linkedin.svg' />
+                    <SmallImg src='/linkedin.svg' />
                     <Typography>
                         My LinkedIn,{' '}
                         <MuiLink href='https://www.linkedin.com/in/krzysztof-widacki-68460712b/'>
@@ -49,7 +49,7 @@ const About: NextPage = () => {
                     mb={4}
                     gap={1}
                 >
-                    <SmallImg src='/img/github-transparent-dark.png' />
+                    <SmallImg src='/github-transparent-dark.png' />
                     <Typography>
                         Also my Github profile:{' '}
                         <MuiLink href='https://github.com/Angael'>Link</MuiLink>

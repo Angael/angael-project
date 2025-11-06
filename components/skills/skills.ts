@@ -28,7 +28,7 @@ const P = Proficiency;
 
 export const skills: Skill[] = [
     {
-        icon: '/img/react.png',
+        icon: '/react.png',
         name: 'React',
         longDesc: [
             `It's my favourite tool for writing frontend`,
@@ -39,7 +39,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/redux.png',
+        icon: '/redux.png',
         name: 'Redux',
         longDesc: [
             `State management solution I worked with the most.`,
@@ -49,14 +49,14 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/webpack.png',
+        icon: '/webpack.png',
         name: 'Webpack',
         longDesc: [`Bundler I use the most.`],
         proficiency: P.advanced,
         tags: [Tag.tools, Tag.frontend, Tag.backend],
     },
     {
-        icon: '/img/aws.png',
+        icon: '/aws.png',
         name: 'AWS',
         longDesc: [
             `AWS services that I used: S3, RDS, EC2, Elastic Beanstalk, CodePipeline, Lightsail`,
@@ -67,7 +67,7 @@ export const skills: Skill[] = [
         tags: [Tag.services, Tag.backend],
     },
     {
-        icon: '/img/cra.svg',
+        icon: '/cra.svg',
         name: 'Create React App',
         longDesc: [
             'Favourite starter template for bundling React apps.',
@@ -77,7 +77,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools, Tag.frontend],
     },
     {
-        icon: '/img/emotion.png',
+        icon: '/emotion.png',
         name: 'Emotion.js',
         longDesc: [
             `First jss-like library I used, and the one that I used the most`,
@@ -87,7 +87,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/node.png',
+        icon: '/node.png',
         name: 'Node js',
         longDesc: [
             'I do a lot of node js one way or another.',
@@ -97,7 +97,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools, Tag.frontend, Tag.backend],
     },
     {
-        icon: '/img/js.png',
+        icon: '/js.png',
         name: 'JavaScript',
         longDesc: [
             `My bread and butter work tool`,
@@ -108,7 +108,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages, Tag.frontend, Tag.backend],
     },
     {
-        icon: '/img/ts.png',
+        icon: '/ts.png',
         name: 'TypeScript',
         longDesc: [
             `I like TS, but due to nature of my projects I often don't get to use it`,
@@ -117,7 +117,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages, Tag.frontend, Tag.backend],
     },
     {
-        icon: '/img/linux.png',
+        icon: '/linux.png',
         name: 'Linux',
         longDesc: [
             `I know commands and linux basics`,
@@ -127,7 +127,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/mobx.png',
+        icon: '/mobx.png',
         name: 'MobX',
         longDesc: [
             `I used this library for one project, but then replaced it with hookstate`,
@@ -137,7 +137,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/rust.png',
+        icon: '/rust.png',
         name: 'Rust',
         longDesc: [
             `To avoid JS-developer stereotypes, I started learning a lower level language: Rust.`,
@@ -148,7 +148,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/git.png',
+        icon: '/git.png',
         name: 'Git',
         longDesc: [
             `I know git to a comfortable degree`,
@@ -158,14 +158,14 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/github.png',
+        icon: '/github.png',
         name: 'GitHub',
         longDesc: [`I use it daily in my work and for all my projects`],
         proficiency: P.expert,
         tags: [Tag.services, Tag.tools],
     },
     {
-        icon: '/img/tc.png',
+        icon: '/tc.png',
         name: 'Teamcity',
         longDesc: [
             `I never configured teamcity on my own, but I am used to the interface and getting around it.`,
@@ -174,7 +174,7 @@ export const skills: Skill[] = [
         tags: [Tag.services, Tag.tools],
     },
     {
-        icon: '/img/php.png',
+        icon: '/php.png',
         name: 'PHP',
         longDesc: [
             `My first server side language`,
@@ -184,7 +184,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages, Tag.backend],
     },
     {
-        icon: '/img/c.png',
+        icon: '/c.png',
         name: 'C',
         longDesc: [
             `I used it in University for one semester and made one project with it.`,
@@ -193,14 +193,14 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/cpp.png',
+        icon: '/cpp.png',
         name: 'C++',
         longDesc: [`I used it in University for two semesters.`],
         proficiency: P.intermediate,
         tags: [Tag.languages],
     },
     {
-        icon: '/img/java.svg',
+        icon: '/java.svg',
         name: 'Java',
         longDesc: [
             `I once tried some Android development with java, but that ended quickly as I landed a job in frontend.`,
@@ -210,7 +210,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/mui.png',
+        icon: '/mui.png',
         name: 'Material UI',
         longDesc: [
             `Component library I know the most`,
@@ -221,7 +221,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/tailwind.svg',
+        icon: '/tailwind.svg',
         name: 'Tailwind',
         longDesc: [
             `I used it briefly in one project`,
@@ -231,7 +231,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/framermotion.webp',
+        icon: '/framermotion.webp',
         name: 'Framer Motion',
         longDesc: [
             'I used to have a love hate relationship with this library. Everything looks nice with it, but complexity grows really fast.',
@@ -241,7 +241,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/reactrouter.png',
+        icon: '/reactrouter.png',
         name: 'React Router',
         longDesc: ['Routing solution for almost every project I do'],
         proficiency: P.advanced,
@@ -253,7 +253,7 @@ export const skills: Skill[] = [
         },
     },
     {
-        icon: '/img/hookstate.png',
+        icon: '/hookstate.png',
         name: 'Hookstate.js',
         longDesc: [
             `My favourite state management library, due to it's simplicity`,
@@ -262,14 +262,14 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.frontend],
     },
     {
-        icon: '/img/webstorm.png',
+        icon: '/webstorm.png',
         name: 'WebStorm',
         longDesc: [`My favourite IDE for writing javascript and typescript`],
         proficiency: P.expert,
         tags: [Tag.tools],
     },
     {
-        icon: '/img/vsc.png',
+        icon: '/vsc.png',
         name: 'Visual Studio Code',
         longDesc: [
             `My second favourite IDE for writing almost everything else.`,
@@ -279,7 +279,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/knex.png',
+        icon: '/knex.png',
         name: 'Knex.js',
         longDesc: [
             `I don't really like ORMs, and knex fits me really well. I know how to write SQL, so I don't really have to learn anything with knex, because it is only used to build queries, not to build entire models around them.`,
@@ -289,7 +289,7 @@ export const skills: Skill[] = [
         tags: [Tag.libraries, Tag.backend],
     },
     {
-        icon: '/img/mysql.png',
+        icon: '/mysql.png',
         name: 'MySQL',
         longDesc: [
             `Whenever I need a DB, I go with MySQL.`,
@@ -300,7 +300,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages, Tag.backend],
     },
     {
-        icon: '/img/nosql.png',
+        icon: '/nosql.png',
         name: 'NoSQL',
         longDesc: [
             `I used MongoDB for one simple project long ago`,
@@ -311,21 +311,21 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/phpstorm.png',
+        icon: '/phpstorm.png',
         name: 'PhpStorm',
         longDesc: [`I used it long time ago, in my first job`],
         proficiency: P.intermediate,
         tags: [Tag.tools],
     },
     {
-        icon: '/img/eclipse.svg',
+        icon: '/eclipse.svg',
         name: 'Eclipse',
         longDesc: [`My university required me to use eclipse`],
         proficiency: P.intermediate,
         tags: [Tag.tools],
     },
     {
-        icon: '/img/visualstudio.png',
+        icon: '/visualstudio.png',
         name: 'Visual studio',
         longDesc: [
             `I used VS when making C# based apps:`,
@@ -335,7 +335,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/androidstudio.svg',
+        icon: '/androidstudio.svg',
         name: 'Android Studio',
         longDesc: [
             `I created one application for android, so I used android studio`,
@@ -344,7 +344,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/docker.png',
+        icon: '/docker.png',
         name: 'Docker',
         longDesc: [
             `I set up docker projects.`,
@@ -354,7 +354,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/nest.svg',
+        icon: '/nest.svg',
         name: 'Nest.js',
         longDesc: [
             `I use nest js when I have to make a sustainable and scalable CRUD API`,
@@ -365,7 +365,7 @@ export const skills: Skill[] = [
     },
 
     {
-        icon: '/img/express.png',
+        icon: '/express.png',
         name: 'Express',
         longDesc: [
             `I used Express for a long time now, it is my go-to backend framework for most projects`,
@@ -374,7 +374,7 @@ export const skills: Skill[] = [
         tags: [Tag.frameworks, Tag.backend],
     },
     {
-        icon: '/img/bootstrap.png',
+        icon: '/bootstrap.png',
         name: 'Bootstrap',
         longDesc: [
             `I haven't used Bootstrap in years now.`,
@@ -384,7 +384,7 @@ export const skills: Skill[] = [
         tags: [Tag.frameworks, Tag.frontend],
     },
     {
-        icon: '/img/firebase.png',
+        icon: '/firebase.png',
         name: 'Firebase',
         longDesc: [
             `I mostly used it for it's easy authorization.`,
@@ -395,7 +395,7 @@ export const skills: Skill[] = [
         tags: [Tag.services],
     },
     {
-        icon: '/img/python.png',
+        icon: '/python.png',
         name: 'Python',
         longDesc: [
             `My first programming language`,
@@ -405,21 +405,21 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/r.png',
+        icon: '/r.png',
         name: 'R',
         longDesc: [`I used it for statistics class in my University`],
         proficiency: P.beginner,
         tags: [Tag.languages],
     },
     {
-        icon: '/img/scilab.png',
+        icon: '/scilab.png',
         name: 'Scilab',
         longDesc: [`I used it for a class in my University`],
         proficiency: P.intermediate,
         tags: [Tag.languages],
     },
     {
-        icon: '/img/digitalocean.png',
+        icon: '/digitalocean.png',
         name: 'Digital Ocean',
         longDesc: [
             `This site is hosted on Ditigal Ocean`,
@@ -429,7 +429,7 @@ export const skills: Skill[] = [
         tags: [Tag.services],
     },
     {
-        icon: '/img/nginx-icon.svg',
+        icon: '/nginx-icon.svg',
         name: 'Nginx',
         longDesc: [
             `I started learning nginx, because it is just so effective and performant!`,
@@ -439,7 +439,7 @@ export const skills: Skill[] = [
         tags: [Tag.frameworks, Tag.backend],
     },
     {
-        icon: '/img/angular.png',
+        icon: '/angular.png',
         name: 'Angular',
         longDesc: [
             `My first js framework.`,
@@ -452,7 +452,7 @@ export const skills: Skill[] = [
         tags: [Tag.frameworks, Tag.frontend],
     },
     {
-        icon: '/img/scss.png',
+        icon: '/scss.png',
         name: 'Scss',
         longDesc: [
             `I never write pure CSS anymore`,
@@ -462,7 +462,7 @@ export const skills: Skill[] = [
         tags: [Tag.languages],
     },
     {
-        icon: '/img/unity.png',
+        icon: '/unity.png',
         name: 'Unity',
         longDesc: [
             `My prefered language to write games in`,
@@ -473,7 +473,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/blender.png',
+        icon: '/blender.png',
         name: 'Blender',
         longDesc: [
             `I make models and animations in blender.`,
@@ -483,7 +483,7 @@ export const skills: Skill[] = [
         tags: [Tag.tools],
     },
     {
-        icon: '/img/semanticui.png',
+        icon: '/semanticui.png',
         name: 'Semantic UI',
         longDesc: [
             `Semantic UI has some powerful components I like to use`,

@@ -32,7 +32,7 @@ export const projects: Project[] = [
         name: 'KryptoBreaker',
         description:
             'Website created to help people learn cryptographic algorithms for free and because I was lazy and wanted to cheat on my collage exams.',
-        imgSrc: '/img/kryptobreaker.png',
+        imgSrc: '/kryptobreaker.png',
         tags: [TAG.React, TAG.JS, TAG.MUI],
         source: 'https://github.com/Angael/KryptoBreaker',
         href: 'https://krypto.widacki.me/',
