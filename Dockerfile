@@ -3,7 +3,7 @@ FROM oven/bun:1 AS builder
 WORKDIR /app
 
 # Install all dependencies (needed for build)
-COPY package.json bun.lockb* ./
+COPY package.json bun.lock* ./
 RUN bun install --frozen-lockfile
 
 # Copy source code and build
@@ -16,7 +16,7 @@ FROM oven/bun:1
 WORKDIR /app
 
 # Install only production dependencies
-COPY package.json bun.lockb* ./
+COPY package.json bun.lock* ./
 RUN bun install --frozen-lockfile --production
 
 # Copy built application from builder
