@@ -41,3 +41,5 @@ Thumbs.db
 .eslintrc.json
 Dockerfile
 .dockerignore
+.idea
+README.md
